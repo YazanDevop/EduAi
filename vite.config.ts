@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
 
   return {
-    base: '/EduAi/', // 🔴 هذا أهم سطر
+    base: '/eduai2/', // 🔴 هذا أهم سطر
     server: {
       port: 3000,
       host: '0.0.0.0',
